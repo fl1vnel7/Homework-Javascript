@@ -1,99 +1,107 @@
 // Case 1
-let numberWeekday = Number(prompt('Raqamni kiriting:'));
+let numberWeekday = Number(prompt("Raqamni kiriting:"));
 if (numberWeekday === 1) {
-    console.log('Dushanba');
+  console.log("Dushanba");
 } else if (numberWeekday === 2) {
-    console.log('Seshanba');
+  console.log("Seshanba");
 } else if (numberWeekday === 3) {
-    console.log('Chorshanba');
+  console.log("Chorshanba");
 } else if (numberWeekday === 4) {
-    console.log('Payshanba');
+  console.log("Payshanba");
 } else if (numberWeekday === 5) {
-    console.log('Juma');
+  console.log("Juma");
 } else if (numberWeekday === 6) {
-    console.log('Shanba');
+  console.log("Shanba");
 } else if (numberWeekday === 7) {
-    console.log('Yakshanba');
+  console.log("Yakshanba");
 } else {
-    console.log('Raqam xato kiritildi!');
+  console.log("Raqam xato kiritildi!");
 }
 
 // Case 2
-let k = Number(prompt('Raqamni kiriting:'));
+let k = Number(prompt("Raqamni kiriting:"));
 if (k === 1) {
-    console.log('Yomon');
+  console.log("Yomon");
 } else if (k === 2) {
-    console.log('Qoniqarsiz');
+  console.log("Qoniqarsiz");
 } else if (k === 2) {
-    console.log('Qoniqarli');
+  console.log("Qoniqarli");
 } else if (k === 2) {
-    console.log('Yaxshi');
+  console.log("Yaxshi");
 } else if (k === 5) {
-    console.log('Alo');
+  console.log("Alo");
 }
 
 // Case 3
-let month = Number(prompt('Oyning nomini kiriting:'));
+let month = Number(prompt("Oyning nomini kiriting:"));
 if (month == "sentyabr" || "oktyabr" || "noyabr") {
-    console.log("Mavsum - kuz");
-  } else if (month == "dekabr" || "yanvar" || "fevral") {
-    console.log("Mavsum - qish");
-  } else if (month == "mart" || "aprel" || "may") {
-    console.log("Mavsum - bahor");
-  } else if (month == "iyun" || "iyul" || "avgust") {
-    console.log("Mavsum - yoz");
-  } else {
-    console.log("Noto'g'ri oy nomini kiritdingiz!");
-  }
+  console.log("Mavsum - kuz");
+} else if (month == "dekabr" || "yanvar" || "fevral") {
+  console.log("Mavsum - qish");
+} else if (month == "mart" || "aprel" || "may") {
+  console.log("Mavsum - bahor");
+} else if (month == "iyun" || "iyul" || "avgust") {
+  console.log("Mavsum - yoz");
+} else {
+  console.log("Noto'g'ri oy nomini kiritdingiz!");
+}
 
 // Case 4
-let monthNumber = Number(prompt('Oyning raqamini kiriting:'));
+let monthNumber = Number(prompt("Oyning raqamini kiriting:"));
 if (monthNumber === 1) {
-    console.log('Birinchi oy - Yanvar. Yanvarda 31 kun bor');
+  console.log("Birinchi oy - Yanvar. Yanvarda 31 kun bor");
 } else if (monthNumber === 2) {
-    console.log('Ikkinchi oy - Fevral. Fevralda 28 kun bor');
+  console.log("Ikkinchi oy - Fevral. Fevralda 28 kun bor");
 } else if (monthNumber === 3) {
-    console.log('Uchinchi oy - Mart. Martda 31 kun bor');
+  console.log("Uchinchi oy - Mart. Martda 31 kun bor");
 } else if (monthNumber === 4) {
-    console.log('Tortinchi oy - Aprel. Aprel 30 kun bor');
+  console.log("Tortinchi oy - Aprel. Aprel 30 kun bor");
 } else if (monthNumber === 5) {
-    console.log('Beshinchi oy - May. Mayda 31 kun bor');
+  console.log("Beshinchi oy - May. Mayda 31 kun bor");
 } else if (monthNumber === 6) {
-    console.log('Oltinchi oy - Iyun. Iyunda 30 kun bor');
+  console.log("Oltinchi oy - Iyun. Iyunda 30 kun bor");
 } else if (monthNumber === 7) {
-    console.log('Yettinchi oy - Iyul. Iyulda 31 kun bor');
+  console.log("Yettinchi oy - Iyul. Iyulda 31 kun bor");
 } else if (monthNumber === 8) {
-    console.log('Sakkizinchi oy - Avgust. Avgustda 31 kun bor');
+  console.log("Sakkizinchi oy - Avgust. Avgustda 31 kun bor");
 } else if (monthNumber === 9) {
-    console.log('Toqqizinchi oy - Sentabr. Sentabrda 30 kun bor');
+  console.log("Toqqizinchi oy - Sentabr. Sentabrda 30 kun bor");
 } else if (monthNumber === 10) {
-    console.log('Oninchi oy - Oktabr. Oktabrda 31 kun bor');
+  console.log("Oninchi oy - Oktabr. Oktabrda 31 kun bor");
 } else if (monthNumber === 11) {
-    console.log('On birinchi oy - Noyabr. Noyabrda 30 kun bor');
+  console.log("On birinchi oy - Noyabr. Noyabrda 30 kun bor");
 } else if (monthNumber === 12) {
-    console.log('On ikkinchi oy - Dekabr. Dekabrda 31 kun bor');
+  console.log("On ikkinchi oy - Dekabr. Dekabrda 31 kun bor");
 }
 
 // Case 5
 let A = Number(prompt("Birinchi son:"));
 let B = Number(prompt("Ikkinchi son:"));
-let arifmetikAmal = Number(prompt("Arifmetik amalni tanlang: 1 - qo'shish; 2 - ayirish; 3 - bo'lish; 4 - ko'paytirish"));
+let arifmetikAmal = Number(
+  prompt(
+    "Arifmetik amalni tanlang: 1 - qo'shish; 2 - ayirish; 3 - bo'lish; 4 - ko'paytirish"
+  )
+);
 let result;
 if (arifmetikAmal === 1) {
-    result = A + B;
-  } else if (arifmetikAmal === 2) {
-    result = A - B;
-  } else if (arifmetikAmal === 3) {
-    result = A / B;
-  } else if (arifmetikAmal === 4) {
-    result = A * B;
-  } else {
-    result = "Noto'g'ri amal tanlandi!";
-  }
+  result = A + B;
+} else if (arifmetikAmal === 2) {
+  result = A - B;
+} else if (arifmetikAmal === 3) {
+  result = A / B;
+} else if (arifmetikAmal === 4) {
+  result = A * B;
+} else {
+  result = "Noto'g'ri amal tanlandi!";
+}
 console.log("Natija:", result);
 
 // Case 6
-let uzunlikBirligi = Number(prompt("Uzunlik birligini tanlang:\n1 - Desimetr\n2 - Kilometr\n3 - Metr\n4 - Millimeter\n5 - Santimetr"));
+let uzunlikBirligi = Number(
+  prompt(
+    "Uzunlik birligini tanlang:\n1 - Desimetr\n2 - Kilometr\n3 - Metr\n4 - Millimeter\n5 - Santimetr"
+  )
+);
 let kesmaUzunligi = Number(prompt("Kesmaning uzunligini kiriting:"));
 let metr;
 if (uzunlikBirligi === 1) {
@@ -111,7 +119,11 @@ if (uzunlikBirligi === 1) {
 }
 
 // Case 7
-let ogirlikBirlik = Number(prompt("Og'irlik birligini tanlang:\n1 - Kilogramm\n2 - Milligramm\n3 - Gramm\n4 - Tonna\n5 - Sentner"));
+let ogirlikBirlik = Number(
+  prompt(
+    "Og'irlik birligini tanlang:\n1 - Kilogramm\n2 - Milligramm\n3 - Gramm\n4 - Tonna\n5 - Sentner"
+  )
+);
 let ogirlikQiymati = Number(prompt("Og'irlik qiymatini kiriting:"));
 let kilogram;
 if (ogirlikBirlik === 1) {
@@ -189,7 +201,11 @@ console.log("Robotning holati:", holat);
 // Case 11
 
 // Case 12
-let element = Number(prompt("Doiraning elementini tanlang: 1 - Radius (R), 2 - Diametr (D), 3 - Uzunligi (L), 4 - Yuzasi (S)"));
+let element = Number(
+  prompt(
+    "Doiraning elementini tanlang: 1 - Radius (R), 2 - Diametr (D), 3 - Uzunligi (L), 4 - Yuzasi (S)"
+  )
+);
 let R, D, L, S;
 if (element === 1) {
   R = Number(prompt("Doiraning radiusini kiriting:"));
@@ -222,7 +238,11 @@ console.log("Uzunligi:", L);
 console.log("Yuzasi:", S);
 
 // Case 13
-let elementTriangle = Number(prompt("Tengyonli uchburchakning elementini tanlang: 1 - Katet a, 2 - Gipotenuza c\n3 - Tushirilgan baladlik h\n4 - Yuzasi"));
+let elementTriangle = Number(
+  prompt(
+    "Tengyonli uchburchakning elementini tanlang: 1 - Katet a, 2 - Gipotenuza c\n3 - Tushirilgan baladlik h\n4 - Yuzasi"
+  )
+);
 
 let a, c, h, triangleS;
 
@@ -233,19 +253,19 @@ if (elementTriangle === 1) {
   triangleS = (a * h) / 2;
 } else if (elementTriangle === 2) {
   c = Number(prompt("Gipotenuzani kiriting:"));
-  a = Math.sqrt(c * c / 2);
+  a = Math.sqrt((c * c) / 2);
   h = Math.sqrt(c * c - a * a);
   triangleS = (a * h) / 2;
 } else if (elementTriangle === 3) {
   h = Number(prompt("Tushirilgan balandlikni kiriting:"));
   c = Math.sqrt(h * h + h * h);
-  a = Math.sqrt(c * c / 2);
+  a = Math.sqrt((c * c) / 2);
   triangleS = (a * h) / 2;
 } else if (elementTriangle === 4) {
   triangleS = Number(prompt("Yuzasini kiriting:"));
   h = Math.sqrt((2 * triangleS * 2) / 3);
   c = Math.sqrt(h * h + h * h);
-  a = Math.sqrt(c * c / 2);
+  a = Math.sqrt((c * c) / 2);
 } else {
   console.log("Noto'g'ri element tanlandi.");
 }
@@ -266,8 +286,30 @@ let age = Number(prompt("Yoshni kiriting (20-69):"));
 let yoshSozlari;
 
 if (age >= 20 && age <= 69) {
-  let birliklar = ["", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
-  let onliklar = ["", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"];
+  let birliklar = [
+    "",
+    "bir",
+    "ikki",
+    "uch",
+    "to'rt",
+    "besh",
+    "olti",
+    "yetti",
+    "sakkiz",
+    "to'qqiz",
+  ];
+  let onliklar = [
+    "",
+    "o'n",
+    "yigirma",
+    "o'ttiz",
+    "qirq",
+    "ellik",
+    "oltmish",
+    "yetmish",
+    "sakson",
+    "to'qson",
+  ];
   let onliklarIndex = Math.floor(age / 10);
   let birliklarIndex = age % 10;
   let onlik = onliklar[onliklarIndex];
@@ -285,7 +327,18 @@ let masalaSoni = Number(prompt("O'quv masalalarini kiriting (10-40):"));
 let masalaSozlari;
 
 if (masalaSoni >= 10 && masalaSoni <= 40) {
-  let birliklar = ["", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
+  let birliklar = [
+    "",
+    "bir",
+    "ikki",
+    "uch",
+    "to'rt",
+    "besh",
+    "olti",
+    "yetti",
+    "sakkiz",
+    "to'qqiz",
+  ];
   let onliklar = ["", "o'n", "yigirma", "o'ttiz", "qirq"];
   let onliklarIndex = Math.floor(masalaSoni / 10);
   let birliklarIndex = masalaSoni % 10;
@@ -296,4 +349,4 @@ if (masalaSoni >= 10 && masalaSoni <= 40) {
   console.log("Noto'g'ri masala soni kiritildi.");
 }
 
-console.log("Masala ifodalari:", masalaSozlari);
+console.log(masalaSozlari);
