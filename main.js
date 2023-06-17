@@ -35,13 +35,13 @@ if (k === 1) {
 // Case 3
 let month = Number(prompt("Oyning nomini kiriting:"));
 if (month == "sentyabr" || "oktyabr" || "noyabr") {
-  console.log("Mavsum - kuz");
+  console.log("Fasl - kuz");
 } else if (month == "dekabr" || "yanvar" || "fevral") {
-  console.log("Mavsum - qish");
+  console.log("Fasl - qish");
 } else if (month == "mart" || "aprel" || "may") {
-  console.log("Mavsum - bahor");
+  console.log("Fasl - bahor");
 } else if (month == "iyun" || "iyul" || "avgust") {
-  console.log("Mavsum - yoz");
+  console.log("Fasl - yoz");
 } else {
   console.log("Noto'g'ri oy nomini kiritdingiz!");
 }
